@@ -6,8 +6,8 @@ import QtQuick.Controls 2.0
 ApplicationWindow {
     id: appWindow
     visible: true
-    width: 640
-    height: 480
+    width: 720
+    height: 640
     title: qsTr("Hello World")
     flags: Qt.Dialog | Qt.FramelessWindowHint
 
@@ -24,16 +24,15 @@ ApplicationWindow {
 
         property variant clickPos: Qt.point(1, 1)
 
-        onPressed: {
+        onPressed: function(mouse) {
             clickPos  = Qt.point(mouse.x,mouse.y)
         }
 
-        onPositionChanged: {
+        onPositionChanged: function(mouse) {
             var delta = Qt.point(mouse.x-clickPos.x, mouse.y-clickPos.y)
             appWindow.x += delta.x;
             appWindow.y += delta.y;
         }
-
     }
 
     MainForm {
