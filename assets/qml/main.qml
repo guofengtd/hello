@@ -2,7 +2,6 @@ import QtQuick 2.6
 import QtQuick.Window 2.2
 import QtQuick.Layouts 1.3
 import QtQuick.Controls 2.0
-import QtQuick.Controls.Styles 1.2
 
 ApplicationWindow {
     id: appWindow
@@ -23,7 +22,7 @@ ApplicationWindow {
         id: mouseArea
         anchors.fill: parent
 
-        property variant clickPos: "1,1"
+        property variant clickPos: Qt.point(1, 1)
 
         onPressed: {
             clickPos  = Qt.point(mouse.x,mouse.y)
