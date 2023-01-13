@@ -1,0 +1,6 @@
+[submodule "lib/http"]
+	path = lib/http
+	url = git@github.com:flaviotordini/http
+[submodule "lib/QtAwesome"]
+	path = lib/QtAwesome
+	url = git@github.com:gamecreature/QtAwesome.git
