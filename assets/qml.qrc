@@ -1,9 +1,8 @@
 <RCC>
     <qresource prefix="/">
         <file>qml/main.qml</file>
-        <file>qml/MainForm.qml</file>
+        <file>qml/MainForm.ui.qml</file>
         <file>qml/TitleBar.qml</file>
-
         <file>images/background.png</file>
         <file>images/settings.png</file>
     </qresource>
