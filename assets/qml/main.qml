@@ -39,7 +39,4 @@ ApplicationWindow {
     MainForm {
         anchors.fill: parent
     }
-
-    showMinimized {
-    }
 }

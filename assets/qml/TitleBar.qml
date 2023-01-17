@@ -40,7 +40,7 @@ RowLayout {
         }
 
         onClicked: {
-
+            appWindow.showMinimized()
         }
     }
 
