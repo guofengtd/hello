@@ -13,12 +13,12 @@ RowLayout {
     }
 
     ToolButton {
-        Layout.preferredWidth: 32
-        Layout.preferredHeight: 32
+        Layout.preferredWidth: 24
+        Layout.preferredHeight: 24
 
         Image {
-            width: 24
-            height: 24
+            width: 16
+            height: 16
             anchors.verticalCenter: parent.verticalCenter
             anchors.horizontalCenter: parent.horizontalCenter
             source: "qrc:/images/person.png"
@@ -27,12 +27,12 @@ RowLayout {
     }
 
     ToolButton {
-        Layout.preferredWidth: 32
-        Layout.preferredHeight: 32
+        Layout.preferredWidth: 24
+        Layout.preferredHeight: 24
 
         Image {
-            width: 24
-            height: 24
+            width: 16
+            height: 16
             anchors.verticalCenter: parent.verticalCenter
             anchors.horizontalCenter: parent.horizontalCenter
             source: "qrc:/images/minimize.png"
@@ -41,16 +41,20 @@ RowLayout {
     }
 
     ToolButton {
-        Layout.preferredWidth: 32
-        Layout.preferredHeight: 32
+        Layout.preferredWidth: 24
+        Layout.preferredHeight: 24
 
         Image {
-            width: 24
-            height: 24
+            width: 16
+            height: 16
             anchors.verticalCenter: parent.verticalCenter
             anchors.horizontalCenter: parent.horizontalCenter
             source: "qrc:/images/close.png"
             fillMode:Image.PreserveAspectFit
+        }
+
+        onClicked: {
+            Qt.quit()
         }
     }
 }

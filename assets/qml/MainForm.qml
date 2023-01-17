@@ -6,7 +6,7 @@ import QtQuick.Layouts 1.3
 ColumnLayout {
     TitleBar {
         id: titleBar
-        Layout.preferredHeight: 32
+        Layout.preferredHeight: 24
         Layout.fillWidth: true
     }
 
