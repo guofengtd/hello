@@ -1,5 +1,5 @@
 import QtQuick 2.0
-import QtQuick.Controls 2.6
+import QtQuick.Controls 2.0
 import QtQuick.Layouts 1.3
 
 
@@ -67,7 +67,7 @@ ColumnLayout {
     }
 
     Rectangle {
-        color: 'white'
+        color: 'purple'
         Layout.preferredHeight: 72
         Layout.fillWidth: true
     }
