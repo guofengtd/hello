@@ -9,7 +9,7 @@ ApplicationWindow {
     width: 720
     height: 640
     title: qsTr("Hello World")
-    flags: Qt.Dialog | Qt.FramelessWindowHint
+    flags: Qt.FramelessWindowHint
 
     property alias mouseArea: mouseArea
 
@@ -37,6 +37,5 @@ ApplicationWindow {
 
     MainForm {
         anchors.fill: parent
-        
     }
 }
