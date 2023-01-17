@@ -3,6 +3,7 @@ import QtQuick.Window 2.2
 import QtQuick.Layouts 1.3
 import QtQuick.Controls 2.0
 
+
 ApplicationWindow {
     id: appWindow
     visible: true
@@ -37,5 +38,8 @@ ApplicationWindow {
 
     MainForm {
         anchors.fill: parent
+    }
+
+    showMinimized {
     }
 }

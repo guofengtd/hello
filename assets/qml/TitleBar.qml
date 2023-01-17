@@ -38,6 +38,10 @@ RowLayout {
             source: "qrc:/images/minimize.png"
             fillMode:Image.PreserveAspectFit
         }
+
+        onClicked: {
+
+        }
     }
 
     ToolButton {
