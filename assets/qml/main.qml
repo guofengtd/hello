@@ -7,8 +7,8 @@ import QtQuick.Controls 2.0
 ApplicationWindow {
     id: appWindow
     visible: true
-    width: 720
-    height: 640
+    width: 900
+    height: 650
     title: qsTr("Hello World")
     flags: Qt.Dialog | Qt.FramelessWindowHint
 

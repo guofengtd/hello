@@ -6,7 +6,7 @@ import QtQuick.Layouts 1.3
 ColumnLayout {
     TitleBar {
         id: titleBar
-        Layout.preferredHeight: 24
+        Layout.preferredHeight: 1
         Layout.fillWidth: true
     }
 
@@ -24,9 +24,8 @@ ColumnLayout {
         Layout.fillWidth: true
     }
 
-    Rectangle {
-        color: 'transparent'
-        Layout.preferredHeight: 48
+    BottomBar {
+        Layout.preferredHeight: 1
         Layout.fillWidth: true
     }
 }

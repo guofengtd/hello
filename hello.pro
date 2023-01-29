@@ -1,7 +1,7 @@
 QT += quick core gui widgets
 CONFIG += c++11
 CONFIG += sdk_no_version_check
-CONFIG += fontAwesomeFree
+
 
 # The following define makes your compiler emit warnings if you use
 # any feature of Qt which as been marked deprecated (the exact warnings
@@ -22,8 +22,6 @@ SOURCES += \
 
 RESOURCES += \
     assets/qml.qrc
-
-include(lib/QtAwesome/QtAwesome/QtAwesome.pri)
 
 # Additional import path used to resolve QML modules in Qt Creator's code model
 QML_IMPORT_PATH =
