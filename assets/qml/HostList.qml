@@ -7,12 +7,12 @@ ListView {
     delegate: Item {
         x: 5
         width: 80
-        height: 40
+        height: 180
         Row {
             id: row1
             Rectangle {
-                width: 40
-                height: 40
+                width: 400
+                height: 180
                 color: colorCode
             }
 

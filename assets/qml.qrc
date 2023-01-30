@@ -10,5 +10,6 @@
         <file>images/close.png</file>
         <file>qml/HostList.qml</file>
         <file>qml/BottomBar.qml</file>
+        <file>qml/LoginView.qml</file>
     </qresource>
 </RCC>

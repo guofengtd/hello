@@ -15,6 +15,14 @@ ColumnLayout {
         Layout.preferredHeight: 320
         Layout.fillWidth: true
         Layout.margins: 32
+        visible: false
+    }
+
+    LoginView {
+        id: loginView
+        Layout.fillHeight: true
+        Layout.fillWidth: true
+        visible: true
     }
 
     Rectangle {
@@ -22,10 +30,12 @@ ColumnLayout {
         Layout.preferredHeight: 1
         Layout.fillHeight: true
         Layout.fillWidth: true
+        visible: false
     }
 
     BottomBar {
         Layout.preferredHeight: 1
         Layout.fillWidth: true
+        visible: false
     }
 }
