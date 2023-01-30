@@ -8,6 +8,7 @@
         <file>images/person.png</file>
         <file>images/minimize.png</file>
         <file>images/close.png</file>
+        <file>images/login.png</file>
         <file>qml/HostList.qml</file>
         <file>qml/BottomBar.qml</file>
         <file>qml/LoginView.qml</file>

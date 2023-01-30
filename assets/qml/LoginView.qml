@@ -4,14 +4,16 @@ import QtQuick.Layouts 1.3
 
 Item {
     Rectangle {
-        width: 380
-        height: 320
+        width: 320
+        height: 330
         anchors.verticalCenter: parent.verticalCenter
         anchors.horizontalCenter: parent.horizontalCenter
 
+        color: 'transparent'
+
         Image {
             anchors.fill: parent
-            source: "qrc:/images/background.png"
+            source: "qrc:/images/login.png"
         }
 
         ColumnLayout {
