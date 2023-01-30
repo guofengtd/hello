@@ -12,21 +12,26 @@ Item {
         Image {
             anchors.fill: parent
             source: "qrc:/images/background.png"
-            fillMode:Image.PreserveAspectFill
         }
 
         ColumnLayout {
-            Layout.fillWidth: true
-            Layout.fillHeight: true
+            anchors.fill: parent
 
-            TextField {
-                Layout.margins: 9
+            Rectangle {
+                color: 'transparent'
+                Layout.preferredHeight: 1
+                Layout.fillWidth: true
+                Layout.fillHeight: true
+            }
+
+            LoginTextField {
+                placeholderText: qsTr("Please input name")
                 Layout.preferredHeight: 48
                 Layout.fillWidth: true
             }
 
-            TextField {
-                Layout.margins: 9
+            LoginTextField {
+                placeholderText: qsTr("Please input password")
                 Layout.preferredHeight: 48
                 Layout.fillWidth: true
             }
@@ -43,6 +48,13 @@ Item {
 
             Button {
 
+            }
+
+            Rectangle {
+                color: 'transparent'
+                Layout.preferredHeight: 1
+                Layout.fillWidth: true
+                Layout.fillHeight: true
             }
         }
     }
